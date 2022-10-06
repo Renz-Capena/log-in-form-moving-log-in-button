@@ -47,19 +47,13 @@ pass.addEventListener('keyup',function(){
         this.style.border = "2px solid rgb(224, 52, 52)"
 
         validSubmit()
-
-    }else if(this.value == ""){
-        this.classList.remove('outline')
-        this.style.border = "2px solid"
-
-        validSubmit()
     }
 
 })
 
 
 submitBtn.addEventListener('mouseover',function(){
-    if(pass.value.length <= 10 || email.value.length <= 10){    
+    if(pass.value.length < 10 || email.value.length < 10){    
 
         validSubmit()
 
