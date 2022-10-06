@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* transition: 0.5s; */
+}
+body{
+    min-height: 100vh;
+    background: linear-gradient(to top left,rgb(212, 35, 35),rgb(29, 168, 233) );
+}
+form{
+    border: 1px solid;
+    width: min(300px, 80%);
+    margin: auto;
+    margin-top: 10vh;
+    padding: 40px 20px;
+    text-align: center;
+    background-color: white;
+    border-radius: 7px 25%;
+    position: relative;
+    box-shadow: 10px 10px 20px rgb(46, 46, 46);
+}
+form p{
+    padding: 4px;
+    border: 1px solid;
+    width: min(200px,80%);
+    margin: auto;
+    margin-top: 3vh;
+    font-family: courier;
+    text-align: left;
+}
+#email{
+    text-transform: capitalize;
+}
+#email,#password{
+    padding: 10px 5px;
+    transition: 0.5s;
+    border: 2px solid;
+    border-radius: 10px;
+    /* width: 250px; */
+    width: 80%;
+    outline: none;
+    text-align: center;
+}
+.btn_wrapper{
+    /* border: 1px solid; */
+    width: 80%;
+    margin: auto;
+    text-align: left;
+}
+#submit{
+    width: fit-content;
+    padding: 5px;
+    height: 40px;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    /* position: absolute; */
+    /* left: 0 */
+    background-color: rgb(56, 63, 58);
+    border: 1px solid;
+    color: rgb(233, 252, 252);
+    font-weight: bolder;
+    letter-spacing: 1px;
+}
+.outline{
+    outline-color: rgb(69, 231, 69);
+}
+.noinput{
+    outline-color: rgb(224, 52, 52);
+}
+
